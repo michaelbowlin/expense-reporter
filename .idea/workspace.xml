@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7a285b-46bd-47a7-89de-d8cc956ea1cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Expense/expense.html" afterPath="$PROJECT_DIR$/src/app/Expense/expense.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/expensesDataServiceSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Expense/expensesController.js" afterPath="$PROJECT_DIR$/src/app/Expense/expensesController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,14 +29,14 @@
     <favorites_list name="expense-reporter" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.6371882">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.791667" vertical-offset="152" max-vertical-offset="555">
-                  <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+                <state vertical-scroll-proportion="0.88408643" vertical-offset="0" max-vertical-offset="585">
+                  <caret line="30" column="20" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -43,8 +45,8 @@
           <file leaf-file-name="SpecRunner.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SpecRunner.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="675">
-                  <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+                <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="705">
+                  <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -60,11 +62,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="expensesController.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="expensesController.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/Expense/expensesController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.18203883" vertical-offset="0" max-vertical-offset="435">
-                  <caret line="5" column="39" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+                  <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="expensesDataServiceSpec.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/expensesDataServiceSpec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+                  <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -117,7 +129,7 @@
           <file leaf-file-name="expensesControllerSpec.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/spec/expensesControllerSpec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7389163" vertical-offset="0" max-vertical-offset="406">
+                <state vertical-scroll-proportion="1.0526316" vertical-offset="0" max-vertical-offset="390">
                   <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
                   <folding />
                 </state>
@@ -140,10 +152,12 @@
         <option value="$PROJECT_DIR$/src/app/Admin/admin.html" />
         <option value="$PROJECT_DIR$/src/app/app.js" />
         <option value="$PROJECT_DIR$/src/app/layout/topNav.html" />
-        <option value="$PROJECT_DIR$/SpecRunner.html" />
         <option value="$PROJECT_DIR$/spec/expensesControllerSpec.js" />
-        <option value="$PROJECT_DIR$/src/app/Expense/expensesController.js" />
         <option value="$PROJECT_DIR$/src/app/Expense/expense.html" />
+        <option value="$PROJECT_DIR$/SpecRunner.html" />
+        <option value="$PROJECT_DIR$/spec/expensesDataServiceSpec.js" />
+        <option value="$PROJECT_DIR$/src/app/expensesDataService.js" />
+        <option value="$PROJECT_DIR$/src/app/Expense/expensesController.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
@@ -505,16 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/expensesControllerSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7389163" vertical-offset="0" max-vertical-offset="406">
+        <state vertical-scroll-proportion="1.0526316" vertical-offset="0" max-vertical-offset="390">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -527,18 +533,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.791667" vertical-offset="152" max-vertical-offset="555">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="705">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Expense/expensesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18203883" vertical-offset="0" max-vertical-offset="435">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/expensesDataServiceSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88408643" vertical-offset="0" max-vertical-offset="585">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
