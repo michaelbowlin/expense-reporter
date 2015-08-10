@@ -26,7 +26,7 @@ describe('expensesDataService', function(){
         });
 
         beforeEach(function(){
-           taxi = new ExpenseItem('Taxi','To airport','89.95');
+            taxi = new ExpenseItem('Taxi','To airport','89.95');
             dinner = new ExpenseItem('Dinner','Dinner with John and Ward',189.50);
         });
 

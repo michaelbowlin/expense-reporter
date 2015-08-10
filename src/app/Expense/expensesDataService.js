@@ -7,7 +7,8 @@
 
     function expensesDataService($http){
         var service = {
-            getExpenses: getExpenses
+            getExpenses: getExpenses,
+            persistExpenses : persistExpenses
         };
 
         return service;
@@ -20,6 +21,21 @@
             ];
         }
 
+        // call back function
+        function reportExpenses(){
+            // some work
+
+        }
+
+        function persistExpenses(reportExpenses){
+            // do some work
+            var success = true;
+            // callback
+            if(success) {
+              reportExpenses();
+            }
+
+        }
 
     }
 
